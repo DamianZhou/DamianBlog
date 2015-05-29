@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<article id="post-page">
+	<h2>{{ page.title }}</h2>		
+	<time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_string }}</time>
+
+	<link rel="stylesheet" href="css/pygments.css">
+	<!-- This css contains the default style for TOC -->
+  <link rel="stylesheet" type="text/css" media="screen" href="css/toc.css">
+
+	<div class="content">
+
+		{{ content | toc_generate }}
+		
+	</div>
+</article>
+
