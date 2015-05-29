@@ -1,21 +1,41 @@
 ---
 layout: page
-title: About Emerald
+title: About Me
 ---
-## About
-Emerald is a minimal theme created for Jekyll. The main purpose of Emerald is to provide a clear theme for those who want a blog ready to use, focused on the content and mobile-first.
+<style>
+p {
+    color: #6D6D6D;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    margin-top: -10px;
+}
+hr {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+blockquote p {
+    line-height: 1.8;
+    letter-spacing: 0px;
+}
+</style>
 
-For further details on Emerald, please visit the [repository on Github](https://github.com/KingFelix/emerald/).
 
-![Emerald](img/Emerald01.png "Emerald")
+## 关于作者
 
-### Setup
-Emerald may be installed by simply downloading the .zip folder from the [repository on Github](https://github.com/KingFelix/emerald/archive/master.zip).
+<hr id="line"/>
 
-After extracting the content from the folder into the selected directory, you can type ``jekyll serve`` from the terminal, than open your browser to ``0.0.0.0:4000/emerald/`` and you will find it there.
 
-Additionally it is possible to fork the repository and use Github Pages as hosting. By following this way it will be enough to change the ``baseurl`` value into the ``_config.yml`` file, with the directory name of your project (for example /blog) or simply with a "/" (slash) if you want install Emerald in the root. 
 
-Last but not least: the [Jekyll documentation](http://jekyllrb.com) is the best starting point!
+> 网&nbsp;&nbsp;名: Damian Zhou  
+> Email: <a href="mailto:zhoucaidong@gmail.com">zhoucaidong@gmail.com</a> <br>
+> 微&nbsp;&nbsp;博: <a href="http://weibo.com/zhoucaidong">@酒千觞箫</a>  
+> 博&nbsp;&nbsp;客: <a href="http://damianzhou.github.io/">Damian Zhou</a>  
+> GitHub：[Damian Zhou](https://github.com/DamianZhou)  
+> ....
 
-Enjoy!
+---
+
+> [一个人的改变，源自于自我的一种积极进取，而不是等待什么天赐良机。](/DamianBlog/)
+
+---
